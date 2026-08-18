@@ -7,6 +7,8 @@ def outputq(q_list, times, notclean = 0):
     交互: 模式1输入一个答案,模式3输入列表长度个答案
     返回: 用户输入答案或答案列表
     """
+    import os
+    os.system('clear')
 
 def generateq(mode, max, digit):
     """

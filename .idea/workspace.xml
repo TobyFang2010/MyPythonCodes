@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1a0b805-d8d3-4e1d-8a5e-d01ef64a3c27" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MyPythonCodes.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c1a0b805-d8d3-4e1d-8a5e-d01ef64a3c27" name="更改" comment="AI完成main()函数">
+      <change beforePath="$PROJECT_DIR$/Quick.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quick.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,6 +34,9 @@
     &quot;accountId&quot;: &quot;c00c0ae0-3c2f-4195-8ab4-7d3640687e95&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Quick.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -37,10 +48,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -65,9 +78,31 @@
       <option name="presentableId" value="Default" />
       <updated>1786968200323</updated>
     </task>
+    <task id="LOCAL-00001" summary="新建文件，并且上传一些杂项">
+      <option name="closed" value="true" />
+      <created>1787049122119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787049122119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="AI完成main()函数">
+      <option name="closed" value="true" />
+      <created>1787049367200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787049367200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新建文件，并且上传一些杂项" />
+    <MESSAGE value="AI完成main()函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="AI完成main()函数" />
   </component>
 </project>

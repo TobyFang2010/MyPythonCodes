@@ -75,7 +75,7 @@ def main():
 
     if mode == 1 or mode == 3:
         q_list = generateq(mode, max_num, digit)
-        user_ans = outputq(q_list, interval_time, notclear=notclear)
+        user_ans = outputq(q_list, interval_time, notclear)
         real_ans = shougananswer(*q_list)
         correct_count = check(user_ans, real_ans)
         print(f"答对数量：{correct_count}/{max_num}")

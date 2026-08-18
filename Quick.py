@@ -48,6 +48,43 @@ def main():
     模式2：单笔多道计算题
     模式3：连续多道单笔计算题(统一给答案)
     """
+    print("===== 口算训练程序 =====")
+    # 选择模式
+    while True:
+        try:
+            mode = int(input("请选择模式【1/2/3】：1多笔加减｜2单笔逐题｜3批量出题统一作答："))
+            if mode in (1,2,3):
+                break
+            print("输入无效，请输入1、2、3")
+        except ValueError:
+            print("请输入数字")
+
+    # 参数配置
+    digit = int(input("请输入数字位数："))
+    max_num = int(input("请输入题量："))
+    use_timer = input("是否开启计时(y/n):").strip().lower() == 'y'
+
+    start_time = time.time() if use_timer else None
+    correct_count = 0
+
+    if mode == 1 or mode == 3:
+        q_list = generateq(mode, max_num, digit)
+        user_ans = outputq(q_list, time=1, notclear=0)
+        real_ans = shougananswer(*q_list)
+        correct_count = check(user_ans, real_ans)
+
+    elif mode == 2:
+        correct_count = asksq(digit, max_num, mode)
+
+    end_time = time.time() if use_timer else None
+
+    # 结果输出
+    total = max_num
+    print(f"\n完成！正确：{correct_count}/{total}")
+    if use_timer:
+        cost = end_time - start_time
+        print(f"总用时：{cost:.2f} 秒")
+
 
 if __name__ == "__main__":
     main()
